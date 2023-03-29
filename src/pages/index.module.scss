@@ -63,7 +63,7 @@
 }
 
 .pinkSpan {
-  color: hsl(280 100% 70%);
+  color: hsl(280deg 100% 70%);
 }
 
 .cardRow {
@@ -92,11 +92,11 @@
   padding: 1rem;
   border-radius: 0.75rem;
   color: white;
-  background-color: rgb(255 255 255 / 0.1);
+  background-color: rgb(255 255 255 / 10%);
 }
 
 .card:hover {
-  background-color: rgb(255 255 255 / 0.2);
+  background-color: rgb(255 255 255 / 20%);
   transition: background-color 150ms cubic-bezier(0.5, 0, 0.2, 1);
 }
 
@@ -136,7 +136,7 @@
 
 .loginButton {
   border-radius: 9999px;
-  background-color: rgb(255 255 255 / 0.1);
+  background-color: rgb(255 255 255 / 10%);
   padding: 0.75rem 2.5rem;
   font-weight: 600;
   color: white;
@@ -145,5 +145,5 @@
 }
 
 .loginButton:hover {
-  background-color: rgb(255 255 255 / 0.2);
+  background-color: rgb(255 255 255 / 20%);
 }
